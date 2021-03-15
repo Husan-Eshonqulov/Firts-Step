@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 3</title>  
+  </head>
+  
+  <body>
+    <h1>Good Memories Form</h1>
+    <form action="mailto:husan.eshonqulov.00@gmail.com" method="post" enctype="text/plain">
+      <h3>Tell us something positive that happened to you today.</h3>
+      
+      <label for="name">Name*</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+       <br><br>
+        
+      <label for="email">Email*</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+       <br><br> 
+      
+      <label for="secret key">Secret key*</label>
+        <input id="secret key" name="secret key" type="password" placeholder="Enter your secret key" required>
+       <br><br>
+      
+      <label for="how good">On scale of 1-10, how good was it?</label>
+        <input id="how good" name="how good" type="range" min="0" max="10" step="1">
+       <br><br>
+      
+      <label for="where">Where did it happen?</label>
+        <select id="where" name="where">
+          <option value="at home">At home</option>
+          <option value="on my commute">On my commute</option>
+          <option value="at work">At work</option>
+          <option value="on the street">On the street</option>
+          <option value="other">Other</option>
+        </select>
+       <br><br>
+      
+      <label for="who">Who were you with?*</label>
+        <input id="who" name="who" type="text" list="you with" required>
+        <datalist id="you with">
+          <option value="Friends"></option>
+          <option value="Parents"></option>
+          <option value="Siblings"></option>
+          <option value="Other relatives"></option>
+          <option value="Strange people"></option>
+          <option value="Alone"></option>
+        </datalist>
+       <br><br>
+      
+      At what time of day did it happen?
+      <input id="morning" name="time" type="radio" value="morning">
+        <label for="morning">Morning</label> <br>
+      
+      <input id="afternoon" name="time" type="radio" value="afternoon">
+        <label for="afternoon">Afternoon</label> <br>
+      
+      <input id="evening" name="time" type="radio" value="evening">
+        <label for="evening">Evening</label> <br><br>
+      
+      
+      What emotions did you experience?
+      <input id="excited" name="emotions" type="checkbox" value="excited">
+        <label for="excited">Excited</label> <br>
+      
+      <input id="humbled" name="emotions" type="checkbox" value="humbled">
+        <label for="humbled">Humbled</label> <br>
+      
+      <input id="elated" name="emotions" type="checkbox" value="elated">
+        <label for="elated">Elated</label> <br>
+      
+      <input id="loved" name="emotions" type="checkbox" value="loved">
+        <label for="loved">Loved</label> <br>
+      
+      <input id="enthusiastic" name="emotions" type="checkbox" value="enthusiastic">
+        <label for="enthusiastic">Enthusiastic</label> <br><br>
+      
+      
+      
+      <label for="describe">Please describe your positive experience.*</label>
+        <textarea id="describe" name="describe" rows="3" cols="40" required placeholder="Enter your experience here..."></textarea> <br><br>
+      
+      <input type="submit" value="Submit" class="submit">
+        
+      <hr>
+      
+      All fields with star(*) are requiered.
+      
+    </form>
+    
+  </body>
+  
+</html>

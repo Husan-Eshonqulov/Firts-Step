@@ -1,0 +1,42 @@
+body {
+    font-family: "Arial";
+  }
+  
+  main {
+    min-height: 500px;
+  }
+  
+  header  {
+    background-color: #6495ed;
+  }
+  
+  img {
+    width: 40%;
+    margin: 0 30%; 
+  }
+  
+  h1.title {
+    color: white;
+    text-align: center;
+  }
+  
+  p.about-me {
+    text-align: center;
+  }
+  
+  main {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+  }
+  
+  h2.projects {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  p.copy-right {
+    font-weight: 600;
+  }
